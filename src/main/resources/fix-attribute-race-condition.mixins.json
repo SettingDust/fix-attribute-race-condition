@@ -1,0 +1,16 @@
+{
+    "required": true,
+    "minVersion": "0.8",
+    "package": "me.settingdust.fixattributeracecondition.mixin",
+    "compatibilityLevel": "JAVA_8",
+    "refmap": "fix-attribute-race-condition.refmap.json",
+    "mixins": [
+        "MixinAttributeMap"
+    ],
+    "client": [
+        "MixinFontSet"
+    ],
+    "injectors": {
+        "defaultRequire": 1
+    }
+}
